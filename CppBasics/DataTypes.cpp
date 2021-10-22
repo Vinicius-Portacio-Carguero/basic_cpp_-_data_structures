@@ -3,32 +3,33 @@
 using namespace std;
 
 int main(){
-
-    // Int: Integer
     int integerVariable = 5;    
-    cout << integerVariable << endl;
+    cout << "Int : " << integerVariable << " | ";
     
-    // Float: Float 4 byte
     float floatVariable = 2.12301293;
-    cout << floatVariable << endl;
+    cout << "Float: " << floatVariable <<  " | ";
 
-    // Double: Double 8 byte 
     double doubleVariable = 5.2e99;
-    cout << doubleVariable << endl;
+    cout << "Double : "<< doubleVariable <<  " | ";
 
-    // Bool: Boolean type 
     bool booleanTrue = true;  // 1
     bool booleanFalse = false; // 0
-    cout << booleanTrue << endl;
-    cout << booleanFalse << endl;
+    cout << "True: " << booleanTrue <<  " | ";
+    cout << "False: " << booleanFalse <<  " | ";
 
-    // Char: 1 Character
     char charVariable = 'A';
-    cout << charVariable << endl;
+    cout << "Char: "<< charVariable <<  " | ";
 
-    // String: String
     string strVariable = "String";
     cout << strVariable << endl;
+
+    string inputAge = "Input your age: ";
+    string savedAge = "Saved age: ";
+    int age;
+
+    cout << inputAge;
+    cin >> age;
+    cout << savedAge << age;
 
     return 0;
 }
