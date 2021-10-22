@@ -3,7 +3,7 @@
 using namespace std;
 
 
-float calcNote(float notes[]){
+float media(float notes[]){
 
     float sum = notes[0] + notes[1] + notes[2];
 
@@ -12,15 +12,33 @@ float calcNote(float notes[]){
 
 int main(){
 
-    float notes[] = {9.42, 3.93, 4.00};
+    float notes[] = {9.00, 5.00, 5.00};
     
-    if(calcNote(notes) >= 5){
+    // Igual: ==
+    // Maior ou Igual: >=
+    // Menor ou Igual: <=
+    // Diferente que: !=
+
+
+    if(media(notes) > 5){
 
         cout << "Nota ACIMA da média" << endl;
 
-    } else {
+    }
+    else if(media(notes) < 5) {
 
         cout << "Nota ABAIXO da média" << endl;
+
+    }
+    else if(media(notes) == 5) {
+
+        cout << "Nota média" << endl;
+
+    }
+    else {
+
+        cout << "Erro de processamento, verifique as entradas e tente novamente" << endl;
+
     }
 
     return 0;
