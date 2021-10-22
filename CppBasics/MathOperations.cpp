@@ -34,9 +34,11 @@ int main(){
     int a = 1;
     int b = 2;
 
+    // b +=1
     a++;
     cout << "After increment : " <<  a << endl;
 
+    // b -=1
     b--;
     cout << "After decrement : " << b << endl;
 
