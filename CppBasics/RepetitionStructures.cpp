@@ -24,7 +24,7 @@ int main(){
 
     } while ( x <= 10);
 
-    int z = 0;
+    int z = 0; 
 
     for(z = z ; z <= 10; z++){
 
