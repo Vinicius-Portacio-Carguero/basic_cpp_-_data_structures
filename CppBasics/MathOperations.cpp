@@ -16,7 +16,7 @@ int main(){
     int mult = x * y;
     cout << "Mult : " << mult << endl;
 
-    
+     
     int quocient = x/y;
     cout << "Div : " << quocient << endl;
 

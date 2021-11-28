@@ -6,7 +6,7 @@ int main(){
     int integerVariable = 5;    
     cout << "Int : " << integerVariable << " | ";
     
-    float floatVariable = 2.12301293;
+    float floatVariable = 2.13;
     cout << "Float: " << floatVariable <<  " | ";
 
     double doubleVariable = 5.2e99;
